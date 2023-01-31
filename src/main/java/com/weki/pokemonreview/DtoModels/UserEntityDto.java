@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PokemonDto {
+public class UserEntityDto {
     private Integer id;
-    private String name;
-    private String type;
+    private String username;
+    private String password;
 }

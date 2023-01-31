@@ -18,6 +18,6 @@ public class UserEntity {
     private String username;
     private String password;
 
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
     private List<Role> roles;
 }
